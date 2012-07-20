@@ -21,12 +21,13 @@ public class StopWatch {
 			System.out.println("開始されていません");
 			return;
 		}
-		//開始からのタイムを表示
+		// 開始からのタイムを表示
 		System.out.println((time - startTime) / 1000. + "秒");
+		reset();
 	}
 
 	// リセット
-	public void reset() {
+	protected void reset() {
 		startTime = -1;
 	}
 }
