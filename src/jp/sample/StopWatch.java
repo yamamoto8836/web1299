@@ -1,7 +1,17 @@
 package jp.sample;
 
 public class StopWatch {
-	private long startTime = -1;
+	private long startTime;
+	private String name;
+		
+	public StopWatch(String name) {
+		this.name = name;
+		startTime = -1;
+	}
+
+	protected String getName(){
+		return name;
+	}
 
 	protected long getStartTime() {
 		return startTime;

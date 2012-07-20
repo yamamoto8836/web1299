@@ -2,7 +2,13 @@ package jp.sample;
 
 public class LapWatch extends StopWatch {
 
-	private long lapTime = -1;
+	private long lapTime;
+
+
+	public LapWatch(String name) {
+		super(name);
+		lapTime = -1;
+	}
 
 	// lap計測
 	public void lap() {

@@ -7,8 +7,8 @@ public class Rei22_01 {
 
 	public static void main(String[] args) {
 
-		StopWatch watch = new StopWatch();	//StopWatchインスタンス作成
-		StopWatch lap = new LapWatch();		//LapWatchインスタンス作成
+		StopWatch watch = new StopWatch("stop1");	//StopWatchインスタンス作成
+		StopWatch lap = new LapWatch("lap1");		//LapWatchインスタンス作成
 
 		watch.start();						//StopWatch計測開始
 		lap.start();						//LapWatch計測開始
