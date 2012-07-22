@@ -17,26 +17,26 @@ public class StopWatch {
 		return startTime;
 	}
 
-	// è¨ˆæ¸¬é–‹å§‹
+	// Œv‘ªŠJn
 	public void start() {
 		if (startTime == -1)
 			startTime = System.currentTimeMillis();
 	}
 
-	// è¨ˆæ¸¬
+	// Œv‘ª
 	public void stop() {
 		long time = System.currentTimeMillis();
 
 		if (startTime == -1) {
-			System.out.println("é–‹å§‹ã•ã‚Œã¦ã„ã¾ã›ã‚“");
+			System.out.println("ŠJn‚³‚ê‚Ä‚¢‚Ü‚¹‚ñ");
 			return;
 		}
-		// é–‹å§‹ã‹ã‚‰ã®ã‚¿ã‚¤ãƒ ã‚’è¡¨ç¤º
-		System.out.println((time - startTime) / 1000. + "ç§’");
+		// ŠJn‚©‚ç‚Ìƒ^ƒCƒ€‚ğ•\¦
+		System.out.println((time - startTime) / 1000. + "•b");
 		reset();
 	}
 
-	// ãƒªã‚»ãƒƒãƒˆ
+	// ƒŠƒZƒbƒg
 	protected void reset() {
 		startTime = -1;
 	}

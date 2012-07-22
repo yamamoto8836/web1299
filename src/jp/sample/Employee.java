@@ -2,7 +2,7 @@ package jp.sample;
 
 public class Employee {
 	
-	private static final int limitAge = 60; //å®šå¹´
+	private static final int limitAge = 60; //’è”N
 	
 	private String name;
 	private int age;

@@ -10,32 +10,32 @@ public class LapWatch extends StopWatch {
 		lapTime = -1;
 	}
 
-	// lapè¨ˆæ¸¬
+	// lapŒv‘ª
 	public void lap() {
 		long time = System.currentTimeMillis();
 
 		if (getStartTime() == -1) {
-			System.out.println("é–‹å§‹ã•ã‚Œã¦ã„ã¾ã›ã‚“");
+			System.out.println("ŠJn‚³‚ê‚Ä‚¢‚Ü‚¹‚ñ");
 			return;
 		}
 
 		if (lapTime == -1)
 			lapTime = getStartTime();
-		// å‰ã®ãƒ©ãƒƒãƒ—ã‹ã‚‰ã®ã‚¿ã‚¤ãƒ ã¨é–‹å§‹ã‹ã‚‰ã®ã‚¿ã‚¤ãƒ ã‚’è¡¨ç¤º
-		System.out.print("lap  :" + (time - lapTime) / 1000. + "ç§’  ");
-		System.out.println("total:" + (time - getStartTime()) / 1000. + "ç§’");
-		// ç¾åœ¨ã®æ™‚é–“ã‚’ä¿å­˜
+		// ‘O‚Ìƒ‰ƒbƒv‚©‚ç‚Ìƒ^ƒCƒ€‚ÆŠJn‚©‚ç‚Ìƒ^ƒCƒ€‚ğ•\¦
+		System.out.print("lap  :" + (time - lapTime) / 1000. + "•b  ");
+		System.out.println("total:" + (time - getStartTime()) / 1000. + "•b");
+		// Œ»İ‚ÌŠÔ‚ğ•Û‘¶
 		lapTime = time;
 	}
 
-	// è¨ˆæ¸¬ã€€ã‚¹ãƒ¼ãƒ‘ãƒ¼ã‚¯ãƒ©ã‚¹ã®ã‚ªãƒ¼ãƒãƒ¼ãƒ©ã‚¤ãƒ‰
+	// Œv‘ª@ƒX[ƒp[ƒNƒ‰ƒX‚ÌƒI[ƒo[ƒ‰ƒCƒh
 	@Override
 	public void stop() {
 		lap();
 		reset();
 	}
 
-	// ãƒªã‚»ãƒƒãƒˆã€€ã‚¹ãƒ¼ãƒ‘ãƒ¼ã‚¯ãƒ©ã‚¹ã®ã‚ªãƒ¼ãƒãƒ¼ãƒ©ã‚¤ãƒ‰
+	// ƒŠƒZƒbƒg@ƒX[ƒp[ƒNƒ‰ƒX‚ÌƒI[ƒo[ƒ‰ƒCƒh
 	public void reset() {
 		super.reset();
 		lapTime = -1;

@@ -22,4 +22,8 @@ public class Ex21_03_Student {
 	public String getName() {
 		return name;
 	}
+	
+	public String toString(){
+		return "科目：" + kamoku + "　出席番号：" + no+ "　名前：" + name;
+	}
 }

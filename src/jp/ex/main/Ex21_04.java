@@ -6,15 +6,13 @@ import java.io.InputStreamReader;
 
 import jp.ex.Ex21_03_Student;
 
-public class Ex21_03 {
-
+public class Ex21_04 {
 	/**
 	 * @param args
 	 * @throws IOException
 	 */
 	public static void main(String[] args) throws IOException {
-		BufferedReader reader = new BufferedReader(new InputStreamReader(
-				System.in));
+		BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
 		String kamoku, name;
 		int no;
 
@@ -26,9 +24,11 @@ public class Ex21_03 {
 		name = reader.readLine();
 
 		Ex21_03_Student seito = new Ex21_03_Student(kamoku, no, name);
-
-		System.out.println("科目：" + seito.getKamoku() + "　出席番号：" + seito.getNo()
-				+ "　名前：" + seito.getName());
+		toString(seito);
 	}
-
+	
+	static void toString(Ex21_03_Student seito){
+		System.out.println("科目：" + seito.getKamoku() + "　出席番号：" + seito.getNo()
+														+ "　名前：" + seito.getName());
+	}
 }

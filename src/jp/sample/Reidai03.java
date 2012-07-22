@@ -17,13 +17,13 @@ public class Reidai03 {
 		InputStreamReader streamReader = new InputStreamReader(System.in);
 		BufferedReader reader = new BufferedReader(streamReader);
 		
-		System.out.print("åå‰ã‚’å…¥åŠ›ã—ã¦ãã ã•ã„ï¼");
+		System.out.print("–¼‘O‚ğ“ü—Í‚µ‚Ä‚­‚¾‚³‚¢„");
 		name=reader.readLine();
-		System.out.print("äººæ•°ã‚’å…¥åŠ›ã—ã¦ãã ã•ã„");
+		System.out.print("l”‚ğ“ü—Í‚µ‚Ä‚­‚¾‚³‚¢");
 		w=reader.readLine();
 		ninzu=Integer.parseInt(w);
 		
-		System.out.println(name + "ã•ã‚“ã®å…¥å ´æ–™ã¯"+ ninzu*1200 + "å††ã§ã™");
+		System.out.println(name + "‚³‚ñ‚Ì“üê—¿‚Í"+ ninzu*1200 + "‰~‚Å‚·");
 	}
 
 }
