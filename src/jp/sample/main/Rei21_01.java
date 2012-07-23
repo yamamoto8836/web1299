@@ -6,15 +6,15 @@ public class Rei21_01 {
 
 	public static void main(String[] args) {
 		Hito hanako = new Hito();
-		hanako.setNamae("èŠ±å­");
+		hanako.setNamae("‰Ôq");
 		hanako.setSeibetu(1);
 		
 		Hito taro = new Hito();
-		taro.setNamae("å¤ªéƒ");
+		taro.setNamae("‘¾˜Y");
 		taro.setSeibetu(0);
 		
-		System.out.println("åå‰ã¯" + hanako.getNamae() + "ã€æ€§åˆ¥ã¯" + hanako.getSeibetu());
-		System.out.println("åå‰ã¯" + taro.getNamae() + "ã€æ€§åˆ¥ã¯" + taro.getSeibetu());		
+		System.out.println("–¼‘O‚Í" + hanako.getNamae() + "A«•Ê‚Í" + hanako.getSeibetu());
+		System.out.println("–¼‘O‚Í" + taro.getNamae() + "A«•Ê‚Í" + taro.getSeibetu());		
 	}
 
 }

@@ -7,18 +7,18 @@ public class Rei22_01 {
 
 	public static void main(String[] args) {
 
-		StopWatch watch = new StopWatch("stop1");	//StopWatchã‚¤ãƒ³ã‚¹ã‚¿ãƒ³ã‚¹ä½œæˆ
-		StopWatch lap = new LapWatch("lap1");		//LapWatchã‚¤ãƒ³ã‚¹ã‚¿ãƒ³ã‚¹ä½œæˆ
+		StopWatch watch = new StopWatch("stop1");	//StopWatchƒCƒ“ƒXƒ^ƒ“ƒXì¬
+		StopWatch lap = new LapWatch("lap1");		//LapWatchƒCƒ“ƒXƒ^ƒ“ƒXì¬
 
-		watch.start();						//StopWatchè¨ˆæ¸¬é–‹å§‹
-		lap.start();						//LapWatchè¨ˆæ¸¬é–‹å§‹
+		watch.start();						//StopWatchŒv‘ªŠJn
+		lap.start();						//LapWatchŒv‘ªŠJn
 		for (int i = 0; i < 4; i++){
 			if (i != 0)
-				((LapWatch) lap).lap();		//Lapè¨ˆæ¸¬
+				((LapWatch) lap).lap();		//LapŒv‘ª
 			for(long j=0; j < 3000000000L; j++);
 		}
-		watch.stop();						//StopWatchè¨ˆæ¸¬çµ‚äº†
-		lap.stop();							//LapWatchè¨ˆæ¸¬çµ‚äº†
+		watch.stop();						//StopWatchŒv‘ªI—¹
+		lap.stop();							//LapWatchŒv‘ªI—¹
 	}
 
 }

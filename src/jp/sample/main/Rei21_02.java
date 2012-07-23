@@ -5,11 +5,11 @@ import jp.sample.Employee;
 public class Rei21_02 {
 
 	public static void main(String[] args) {
-		Employee tokugawa = new Employee("å¾³å·å®¶åº·", 55);
-		Employee oda = new Employee("ç¹”ç”°ä¿¡é•·", 28);
+		Employee tokugawa = new Employee("“¿ì‰ÆN", 55);
+		Employee oda = new Employee("D“cM’·", 28);
 
-		System.out.println(tokugawa.getName() + "ã•ã‚“ã¯ã€å®šå¹´ã¾ã§" + tokugawa.getLimit() + "å¹´ã§ã™");
-		System.out.println(oda.getName() + "ã•ã‚“ã¯ã€å®šå¹´ã¾ã§" + oda.getLimit() + "å¹´ã§ã™");
+		System.out.println(tokugawa.getName() + "‚³‚ñ‚ÍA’è”N‚Ü‚Å" + tokugawa.getLimit() + "”N‚Å‚·");
+		System.out.println(oda.getName() + "‚³‚ñ‚ÍA’è”N‚Ü‚Å" + oda.getLimit() + "”N‚Å‚·");
 	}
 
 }
