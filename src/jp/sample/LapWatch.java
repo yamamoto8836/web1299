@@ -4,7 +4,6 @@ public class LapWatch extends StopWatch {
 
 	private long lapTime;
 
-
 	public LapWatch(String name) {
 		super(name);
 		lapTime = -1;
@@ -36,6 +35,7 @@ public class LapWatch extends StopWatch {
 	}
 
 	// リセット　スーパークラスのオーバーライド
+	@Override
 	public void reset() {
 		super.reset();
 		lapTime = -1;

@@ -4,7 +4,7 @@ public class Ex22_01_Keitai extends Ex22_01_Telephone {
 	private String email = null;
 
 	public Ex22_01_Keitai(String name, String telno, String email) {
-		super(name,telno);
+		super(name, telno);
 		this.email = email;
 	}
 

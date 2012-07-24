@@ -4,7 +4,6 @@ import jp.ex.Ex21_06_Shohin;
 import jp.ex.Ex21_06_ShohinTable;
 
 public class Ex21_06 {
-
 	/**
 	 * @param args
 	 */

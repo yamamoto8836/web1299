@@ -12,8 +12,7 @@ public class Ex21_05 {
 	 * @throws IOException
 	 */
 	public static void main(String[] args) throws IOException {
-		BufferedReader reader = new BufferedReader(new InputStreamReader(
-				System.in));
+		BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
 		String kamoku, name;
 		int no;
 
