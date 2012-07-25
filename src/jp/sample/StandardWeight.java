@@ -11,9 +11,9 @@ public abstract class StandardWeight {
 		return height;
 	}
 
-	public abstract double standardWeight();
+	public abstract double calStandardWeight();
 
 	public double difference(double weight) {
-		return weight - standardWeight();
+		return weight - calStandardWeight();
 	}
 }

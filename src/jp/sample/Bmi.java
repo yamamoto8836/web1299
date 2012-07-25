@@ -7,7 +7,7 @@ public class Bmi extends StandardWeight {
 	}
 
 	@Override
-	public double standardWeight() {
+	public double calStandardWeight() {
 		return 22 * getHeight() * getHeight() / 10000;
 	}
 
