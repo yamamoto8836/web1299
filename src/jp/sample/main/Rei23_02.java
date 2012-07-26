@@ -6,7 +6,6 @@ import jp.sample.DateJapanese;
 import jp.sample.SplitDate;
 
 public class Rei23_02 {
-
 	/**
 	 * @param args
 	 */
