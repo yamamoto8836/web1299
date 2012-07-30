@@ -12,5 +12,7 @@ public abstract class Ex23_03_RegularPolygon {
 	}
 	
 	
+	
+	
 
 }
